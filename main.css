@@ -1,0 +1,172 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height:8vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color:rgb(210, 30, 210);
+  }
+  
+  .logo{
+    color:white;
+    
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-style: oblique;
+  }
+  
+  .nav-links{
+    display:flex;
+    width:30%;
+    text-transform: uppercase;
+    justify-content: space-around;
+    font-size: 35px;
+  }
+  
+  .nav-links li{
+    list-style: none;
+  }
+  
+  .nav-links a{
+    color:rgb(226, 226, 226);
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .banner{
+    background-size: cover;
+    background-blend-mode: color;
+    color:rgb(255, 70, 23);
+    text-align: center;
+    text-shadow: 1px 1px 5px #000;
+    font-size: 26px;
+  }
+  .banner h1{
+    font-size: 5vw;
+    font-weight: 700;
+    font-family: 'Pacifico', Pacifico, monospace;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 50px;
+  }
+  .background-image{
+    background-image:url('pizza1.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:215vh;
+  }
+  .background-image1{
+    background-image:url('https://cdn.pixabay.com/photo/2020/07/18/16/29/coffee-5417663_1280.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:210vh;
+  }
+  .background-image2{
+    background-image:url('lol.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:210vh;
+  }
+  .background-image3{
+    background-image:url('wood.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:210vh;
+  }
+  
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:rgb(199, 241, 12);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .container .btn:hover {
+    background-color:white;
+  }
+  .button {
+    border-radius: 4px;
+    background-color: #d341ff;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+  body {
+    background-color: rgba(0,0,0,0.1);
+  }
+  
+  /* styling paper */
+  #paper {
+    width: 600px;
+    height: 700px;
+    position: relative;
+    margin: 20px auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: black;
+    box-shadow: 0px 0px 5px 0px #888;
+  }
+  
+  /* styling blue horizontal lines */
+  #pattern {
+    height: 100%;
+    background-image: repeating-linear-gradient(black);
+  }
+  
+  #textbox>h11{
+    color: orange;
+  }
+  
+  #textbox>p12>h11{
+    color: orange;
+  }
+  #contentl {
+    padding-top: 6px;
+    padding-left: 56px;
+    padding-right: 16px;
+    line-height: 25px;
+    font-family:  "Times New Roman", Times, serif;
+    font-size: 19px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    color: white;
+    text-align: left;
+  }
+  .alignleft {
+      float: left;
+  }
+  .alignright {
+      float: right;
+  }
